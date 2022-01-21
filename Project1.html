@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CIT 382 - 22W - Project 1</title>
+
+    <link rel="stylesheet" href="Project1.css" />
+    <script src="Project1.js"></script>
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="inputBlock" class= "flex"> 
+      <h1>Caesar Cypher Using Pure JavaScript</h1>
+      <label for="ClearTextInput">Cleartext:</label>
+      <br />
+      <input id="ClearTextInput" type="input" />
+      <br />
+      <label for="CypherTextInput">Caesar Ciphertext:</label>
+      <br />
+      <input id="CypherTextInput" type="input" readonly />
+      <br />
+      <label for="CypherShiftNumInput">Shift Positions:</label>
+      <br />
+      <input id="CypherShiftNumInput" type="input" />
+      <br />
+      <div id="checkboxDiv">
+      <input id="ShiftLeftCheckbox" type="checkbox" />
+      <label for="ShiftLeftCheckbox">Shift Left</label>
+      </div>
+      <br />
+
+      </div>
+
+      <div id="subAlphaBlock" class= "flex">
+      <h1>Substitution Alphabet</h1>
+      <div class="overflow">
+      <div id="SubstitutionAlphabet"></div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

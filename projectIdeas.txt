@@ -1,0 +1,20 @@
+Project Ideas:
+
+Idea 1: Fishing Mini-Game
+	Game that responds to mouse events and uses timers to test if user reacted in 
+	the alloted time. If yes, a fish is "caught," and a random species from a Fish
+	object is presented to the player. Each fish caught is recorded by the program
+	so the player can view their fishing history. 
+
+Idea 2: COVID Regulations By State
+	An interactive map of the US that reports public health measures implemented by
+	each state government. Clicking on a state will pull up information for that 
+	state. Map will default to displaying legistlation from the federal government
+	before a state is clicked by the user. 
+
+Idea 3: Headline Generator
+	A program that resembles social media platforms like instagram and twitter to 
+	allow the user to scroll through information quickly. News headlines will be 
+	presented to the user, along with a breif description and photos from the article.
+	If the headline is of interest, the user can click a link to be redirected to the
+	article. If not, they can simply continue scrolling.
